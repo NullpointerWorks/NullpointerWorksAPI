@@ -1,0 +1,29 @@
+
+/*
+banner buttons
+*/
+.btn-group .button
+{
+    background-color: #1c1f22; /* Green */
+    border: 1px solid #444;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+    width: 100%;
+    color: #f0f0f0;
+}
+
+.btn-group .button:not(:last-child)
+{
+    border-right: none; /* Prevent double borders */
+}
+
+.btn-group .button:hover
+{
+    background-color: #2c2f32;
+}
