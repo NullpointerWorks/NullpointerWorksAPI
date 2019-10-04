@@ -1,0 +1,54 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    background-color: #003232;
+    font-family: consolas;
+    font-size: 0.8em;
+}
+a
+{
+    text-decoration: none;
+}
+.container
+{
+    margin: 20px 10px;
+}
+.header
+{
+    padding: 5px 20px;
+    font-size: 2em;
+    font-weight: 800;
+    background-color: #d0d0d0;
+}
+.header.small
+{
+    font-size: 1.2em;
+}
+.content
+{
+    padding: 5px 20px;
+    background-color: #f0f0f0;
+}
+.desc
+{
+    padding: 5px 0px;
+}
+.mark
+{
+    font-weight: 800;
+}
+.marktext
+{
+    font-size: 1em;
+    padding-left: 40px;
+}
+.item
+{
+    padding: 5px 20px;
+    background: #f8f8f8;
+}
+.item:nth-of-type(odd)
+{
+    background: #e8e8e8;
+}
