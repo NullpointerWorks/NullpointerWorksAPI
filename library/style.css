@@ -14,6 +14,16 @@ a
 {
     margin: 20px 10px;
 }
+.section
+{
+    padding: 5px 20px;
+}
+.sectiontitle
+{
+    padding: 20px 0px;
+    font-size: 1.5em;
+    font-style: italic;
+}
 .header
 {
     padding: 5px 20px;
@@ -46,6 +56,10 @@ a
 .yellow
 {
     background: #e69419;
+}
+.vdark
+{
+    background-color: #e0e0e0;
 }
 .dark
 {
