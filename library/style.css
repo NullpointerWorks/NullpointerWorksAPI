@@ -10,6 +10,7 @@ a
 {
     text-decoration: none;
 }
+/* layout */
 .container
 {
     margin: 20px 10px;
@@ -51,11 +52,20 @@ a
 {
     font-size: 1em;
     padding-left: 40px;
+    font-weight: 400;
 }
-/* */
+.spacer
+{
+    margin-top: 30px;
+}
+/* colors */
 .yellow
 {
     background: #e69419;
+}
+.blue
+{
+    background: #59b4d6;
 }
 .vdark
 {
