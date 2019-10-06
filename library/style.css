@@ -17,13 +17,13 @@ a
 .header
 {
     padding: 5px 20px;
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: 800;
     background-color: #d0d0d0;
 }
 .header.small
 {
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 .content
 {
