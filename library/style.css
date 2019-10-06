@@ -28,7 +28,6 @@ a
 .content
 {
     padding: 5px 20px;
-    background-color: #f0f0f0;
 }
 .desc
 {
@@ -43,12 +42,20 @@ a
     font-size: 1em;
     padding-left: 40px;
 }
-.item
+/* */
+.yellow
 {
-    padding: 5px 20px;
-    background: #f8f8f8;
+    background: #e69419;
 }
-.item:nth-of-type(odd)
+.dark
 {
-    background: #e8e8e8;
+    background-color: #e8e8e8;
+}
+.midlight
+{
+    background-color: #f0f0f0;
+}
+.light
+{
+    background-color: #f8f8f8;
 }

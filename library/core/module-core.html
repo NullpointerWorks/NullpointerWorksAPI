@@ -5,14 +5,15 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
     	<link rel="stylesheet" type="text/css" href="../style.css"/>
+    	<link rel="stylesheet" type="text/css" href="../layout.css"/>
     </head>
     <body>
         <div class="container">
             <div class="header">
                 Module libnpw.core
             </div>
-            <!-- -->
-            <div class="content">
+            <!-- desc -->
+            <div class="content midlight">
                 <div class="desc">
                     Creative Commons - Attribution, Share Alike 4.0<br/>
                     Nullpointer Works (2019)<br/>
@@ -27,24 +28,53 @@
                     <div class="marktext">Michiel Drost - Nullpointer Works</div>
                 </div>
             </div>
-            <!-- -->
-            <div class="content">
-                <div class="header small">
+            <!-- packages -->
+            <div class="content midlight">
+                <div class="header small yellow">
                     Packages
                 </div>
-                <div class="item"><a href="pack-core.html">com.nullpointerworks.core</a></div>
-                <div class="item"><a href="pack-core-buffer.html">com.nullpointerworks.core.buffer</a></div>
-                <div class="item"><a href="pack-core-buffer-concurrency.html">com.nullpointerworks.core.buffer.concurrency</a></div>
-                <div class="item"><a href="pack-core-input.html">com.nullpointerworks.core.input</a></div>
-                <div class="item"><a href="pack-core-window.html">com.nullpointerworks.core.window</a></div>
-            </div>
-            <!-- -->
-            <div class="content">
-                <div class="header small">
-                    Requires
+                <!-- exported packages -->
+                <div class="content dark">
+                    <div class="rTable">
+                        <div class="rTableRow">
+                            <div class="rTableHead"><strong>Exports</strong></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell"><a href="pack-core.html">com.nullpointerworks.core</a></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell"><a href="pack-core-buffer.html">com.nullpointerworks.core.buffer</a></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell"><a href="pack-core-buffer-concurrency.html">com.nullpointerworks.core.buffer.concurrency</a></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell"><a href="pack-core-input.html">com.nullpointerworks.core.input</a></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell"><a href="pack-core-window.html">com.nullpointerworks.core.window</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="item">java.base</div>
-                <div class="item">transitive java.desktop</div>
+            </div>
+            <!-- modules -->
+            <div class="content midlight">
+                <div class="header small yellow">
+                    Modules
+                </div>
+                <!-- required modules -->
+                <div class="content dark">
+                    <div class="rTable">
+                        <div class="rTableRow">
+                            <div class="rTableHead" style="width:100px;"><strong>Modifier</strong></div>
+                            <div class="rTableHead"><strong>Requires</strong></div>
+                        </div>
+                        <div class="rTableRow">
+                            <div class="rTableCell">transitive</div>
+                            <div class="rTableCell">java.desktop</div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
