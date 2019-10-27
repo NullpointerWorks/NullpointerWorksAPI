@@ -2,7 +2,6 @@ body
 {
     padding: 0px;
     margin: 0px;
-    background-color: #003232;
     font-family: consolas;
     font-size: 0.8em;
 }
@@ -27,10 +26,10 @@ a
 }
 .header
 {
+	color: #003232;
     padding: 5px 20px;
     font-size: 1.5em;
     font-weight: 800;
-    background-color: #d0d0d0;
 }
 .header.small
 {
