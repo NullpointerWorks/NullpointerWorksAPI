@@ -41,12 +41,12 @@ Drawing interface for a libnpw.core window.
                     <div class="rTableRow">
                         <div class="rTableCell">int</div>
                         <div class="rTableCell">width()</div>
-                        <div class="rTableCell">the width of the drawing canvas</div>
+                        <div class="rTableCell">the width in pixels</div>
                     </div>
                     <div class="rTableRow">
                         <div class="rTableCell">int</div>
                         <div class="rTableCell">height()</div>
-                        <div class="rTableCell">the height of the drawing canvas</div>
+                        <div class="rTableCell">the height in pixels</div>
                     </div>
                     <div class="rTableRow">
                         <div class="rTableCell">void</div>
@@ -66,27 +66,27 @@ Drawing interface for a libnpw.core window.
                 <div class="header small blue ">int width()</div>
                 <div class="content midlight">
                     <div class="desc">
-                        Returns the width of the drawing canvas.
+                        Returns the width in pixels of the drawing canvas.
                     </div>
                     <div class="desc">
-                        <div class="desc mark">Returns:<div class="marktext">the width of the drawing canvas</div></div>
+                        <div class="desc mark">Returns:<div class="marktext">the width in pixels</div></div>
                         <div class="desc mark">Since:<div class="marktext">1.0.0</div></div>
                     </div>
                 </div>
                 <div class="header small blue spacer">int height()</div>
                 <div class="content midlight">
                     <div class="desc">
-                        Returns the height of the drawing canvas.
+                        Returns the height in pixels of the drawing canvas.
                     </div>
                     <div class="desc">
-                        <div class="desc mark">Returns:<div class="marktext">the height of the drawing canvas</div></div>
+                        <div class="desc mark">Returns:<div class="marktext">the height in pixels</div></div>
                         <div class="desc mark">Since:<div class="marktext">1.0.0</div></div>
                     </div>
                 </div>
                 <div class="header small blue spacer">void swap(int[] pixels)</div>
                 <div class="content midlight">
                     <div class="desc">
-                        The given array of integers represent the colors to be rendered. Each integer is an ARGB at 8 bit depth.
+                        Swap the content of the provided array with the content held by the drawing canvas. The swapped content will be displayed when new frames are requested. Each integer is an ARGB color at 8 bit depth.
                     </div>
                     <div class="desc">
                         <div class="desc mark">Since:<div class="marktext">1.0.0</div></div>
@@ -95,7 +95,7 @@ Drawing interface for a libnpw.core window.
                 <div class="header small blue spacer">Component component()</div>
                 <div class="content midlight">
                     <div class="desc">
-                        Returns a java.awt.Component that can be attached to a JFrame for display.
+                        Returns a java.awt.Component to which the canvas is drawing on. It can be added as a UI element to a JFrame for display.
                     </div>
                     <div class="desc">
                         <div class="desc mark">Returns:<div class="marktext">a UI component for a window to display</div></div>
